@@ -7,7 +7,7 @@ Adds a lightweight Fluxbox based desktop to the container that can be accessed u
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    "ghcr.io/LCAS/devcontainer-features/desktop-lite:1": {}
 }
 ```
 
@@ -19,6 +19,7 @@ Adds a lightweight Fluxbox based desktop to the container that can be accessed u
 | noVncVersion | NoVnc Version | string | 1.2.0 |
 | password | Enter a password for desktop connections | string | vscode |
 | webPort | Enter a port for the VNC web client | string | 6080 |
+| depth | Colour depth in VNC | string | 16 |
 | vncPort | Enter a port for the desktop VNC server | string | 5901 |
 
 ## Connecting to the desktop
@@ -106,4 +107,4 @@ This Feature should work on recent versions of Debian/Ubuntu-based distributions
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/desktop-lite/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/LCAS/devcontainer-features/blob/main/src/desktop-lite/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
