@@ -13,8 +13,6 @@ jobs:
     strategy:
       matrix:
         features:
-          # - color
-          # - hello
           - desktop-lite
         baseImage:
           # - debian:latest
@@ -35,8 +33,6 @@ jobs:
     strategy:
       matrix:
         features:
-          # - color
-          # - hello
           - desktop-lite
     steps:
       - uses: actions/checkout@v3
